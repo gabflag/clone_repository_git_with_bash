@@ -25,7 +25,13 @@ git pull origin main
 echo "" >> README.md
 git add .
 git commit -m "Synchronized in local environment successfully"
-git push origin main
-echo ''
-echo '=>Ok! Synchronized in local environment successfully'
-echo ''
+
+if git push origin main; then
+    echo ''
+    echo -e '=> \033[32mOK\033[0m! Synchronized in local environment successfully.'
+    echo ''
+else
+    echo ''
+    echo -e '=> \033[31mAn error occurred while pushing changes.\033[0m'
+    echo ''
+fi
