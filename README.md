@@ -9,7 +9,10 @@ To execute it, ensure that your SSH Git key is properly configured on your machi
 
 <h3>Exemple:</h3>
 
-![image](https://github.com/gabflag/clone_repository_git_with_bash/assets/95552879/8c568023-0fd7-46e3-9893-c33243307eaf)
+![image](https://github.com/gabflag/clone_repository_git_with_bash/assets/95552879/5e7224da-08e2-4ebb-ab0f-99c8c14d9df5)
+
+
+![image](https://github.com/gabflag/clone_repository_git_with_bash/assets/95552879/87c6235c-9dd4-452e-835e-552e1ac172b9)
 
 
 <h3>How would you run the program:</h3>
